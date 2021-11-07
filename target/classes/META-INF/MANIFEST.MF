@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1636254728251
+Build-Jdk: 1.8.0_282
+Built-By: shchavan
+Bundle-Description: Sample Camel Route for Enricher and Aggregator Confi
+ guration
+Bundle-ManifestVersion: 2
+Bundle-Name: Fuse :: Karaf :: Camel :: Enricher Configuration
+Bundle-SymbolicName: org.redhat.fusesource.example.karaf-camel-enricher
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.redhat.fusesource;uses:="org.apache.camel.builder,or
+ g.apache.camel.model.rest,org.apache.camel.processor.aggregate,org.apac
+ he.camel.model,org.slf4j,org.apache.camel,org.apache.camel.component.fi
+ le";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.camel;version="[2.23,3)",org.apache.camel.bui
+ lder;version="[2.23,3)",org.apache.camel.component.file;version="[2.23,
+ 3)",org.apache.camel.model;version="[2.23,3)",org.apache.camel.model.re
+ st;version="[2.23,3)",org.apache.camel.processor.aggregate;version="[2.
+ 23,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.slf4j;ver
+ sion="[1.7,2)"
+Tool: Bnd-1.50.0
